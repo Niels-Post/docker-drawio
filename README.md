@@ -52,6 +52,7 @@ If you're running `Docker Toolbox` then start a web browser session to <http://1
 * **COUNTRY_CODE**: Country code to be used as certificate "C" record; default `FR`
 * **KEYSTORE_PASS**: ".keystore"/.jks" store password; default `V3ry1nS3cur3P4ssw0rd`
 * **KEY_PASS**: Private key password; default `<ref:KEYSTORE_PASS>`
+* **TOMCAT_REQUEST_HEADER_LIMIT**: Request header limit for the Tomcat Server
 
 ## HTTPS SSL Certificate via Let's Encrypt
 
